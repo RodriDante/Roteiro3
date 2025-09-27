@@ -1,0 +1,10 @@
+public class Item {
+
+    public string? nome;
+
+
+}
+public class Pedido
+{
+    public Item item;
+}

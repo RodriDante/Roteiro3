@@ -1,0 +1,21 @@
+public class Animal {
+    public string? nome;
+
+    public void EmitirSom(string som)
+    {
+        Console.WriteLine($"{nome} {som}");
+    }
+    
+
+}
+public class Heranca : Animal { 
+     
+     static void Main()
+    {
+        Animal peixe = new Animal();
+        peixe.nome = "peixe";
+        peixe.EmitirSom("glo glo");
+
+
+    }
+}
